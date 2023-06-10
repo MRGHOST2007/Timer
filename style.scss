@@ -1,0 +1,44 @@
+$colorPrimary: rgb(31, 105, 255);
+$colorOnPrimary: rgb(15, 15, 15);
+$colorOnSecondary: rgb(190, 190, 190);
+
+html {
+    font-size: 100%;
+}
+
+.topBar {
+    background-color: $colorPrimary;
+    color: $colorOnPrimary;
+}
+
+.patternText {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(212, 212, 212);
+    font-size: 1.2rem;
+}
+
+.textBoxInput {
+    width: 100%;
+    height: 50%;
+    border: none;
+    resize: none;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+.textBoxInput:focus {
+    border: none;
+    box-shadow: 0px 0px 16px $colorOnSecondary;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+#timer {
+    font-size: 2rem;
+    text-align: center;
+    color: $colorPrimary;
+}
